@@ -1,2 +1,4 @@
 # ArduinoCube
-Completed tasks and extra code for the Arduino cube lessons
+
+Welcome to the repository!
+Here is where the answers to the practice tasks and demonstration code are
