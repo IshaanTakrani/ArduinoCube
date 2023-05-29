@@ -1,3 +1,6 @@
+// Ishaan Takrani
+// May 28, 2023
+
 void setup() {
   /*
   In void setup, pins 3, 4, and 5 are defined
