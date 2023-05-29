@@ -1,3 +1,6 @@
+// Ishaan Takrani
+// May 29, 2023
+
 /*
   Each LED pin on the Arduino can be
   represented by an easily understandable
