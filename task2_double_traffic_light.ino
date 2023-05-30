@@ -48,7 +48,6 @@ void loop() {
   digitalWrite(red_led_2, HIGH);  // At this point, the second light has completed a green -> red cycle 
 
 
-  delay(1000);  // this ensured that both lights are red for a second, as real traffic lights do this
   digitalWrite(red_led, LOW); // red led 1 (finally) turns off
   digitalWrite(green_led, HIGH);  // green led 1 turns green for 5 seconds
   delay(5000);
@@ -59,7 +58,5 @@ void loop() {
   delay(2000); 
 
   digitalWrite(yellow_led, LOW);  // finally, yellow led one turns off and the red one turns on
-  digitalWrite(red_led, HIGH);
-  delay(1000);  // 1 second delay
 
 }
