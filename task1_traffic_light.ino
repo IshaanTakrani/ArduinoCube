@@ -1,5 +1,4 @@
 // Ishaan Takrani
-// May 28, 2023
 
 void setup() {
   /*
