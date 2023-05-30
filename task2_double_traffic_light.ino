@@ -4,7 +4,11 @@
   Each LED pin on the Arduino can be
   represented by an easily understandable
   name. These are called variables.
+
+  The number values assigned to the variable
+  can vary based on which arduino pins you use
 */
+
 int green_led = 3;
 int yellow_led = 4;
 int red_led = 5;
