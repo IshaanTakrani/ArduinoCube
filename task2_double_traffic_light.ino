@@ -8,7 +8,6 @@
   The number values assigned to the variable
   can vary based on which arduino pins you use
 */
-
 int green_led = 3;
 int yellow_led = 4;
 int red_led = 5;
