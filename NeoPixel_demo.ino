@@ -15,7 +15,7 @@ void loop() {
 
   /*
   The below section does not use a for loop, and is
-  unsightly and difficult to modify.
+  unsightly and difffffffficult to modify.
   */
 
   // my_ring.setPixelColor(0,255,0,0);
