@@ -15,7 +15,7 @@ void loop() {
 
   /*
   The below section does not use a for loop, and is
-  unsightly and difficult to modify
+  unsightly and difficult to modify.
   */
 
   // my_ring.setPixelColor(0,255,0,0);
@@ -40,7 +40,13 @@ void loop() {
 
   /*
   Below, a for loop is used to do the
-  same thing. This is much easier to modify
+  same thing. This is much easier to modify.
+  
+  The for loop counts from zero to 15, which are
+  the pixel numbers. It increments by one each time, and
+  each time that it does, it sets the current (i) 
+  pixel to red, then uses the show function to 
+  display the colours.
   */
 
   for(int i = 0; i < 16; i++){
