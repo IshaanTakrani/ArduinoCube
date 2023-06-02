@@ -1,3 +1,4 @@
+// Task 3: Double traffic light function
 // Ishaan Takrani
 
 /*
