@@ -1,3 +1,5 @@
+// Ishaan Takrani
+// Arun Chauhan
 
 #include <Adafruit_NeoPixel.h>
 
@@ -10,21 +12,40 @@ void setup() {
 }
 
 void loop() {
-  my_ring.setPixelColor(0,255,0,0);
-  my_ring.setPixelColor(1,255,0,0);
-  my_ring.setPixelColor(2,255,0,0);
-  my_ring.setPixelColor(3,255,0,0);
-  my_ring.setPixelColor(4,255,0,0);
-  my_ring.setPixelColor(5,255,0,0);
-  my_ring.setPixelColor(6,255,0,0);
-  my_ring.setPixelColor(7,255,0,0);
-  my_ring.setPixelColor(8,255,0,0);
-  my_ring.setPixelColor(9,255,0,0);
-  my_ring.setPixelColor(10,255,0,0);
-  my_ring.setPixelColor(11,255,0,0);
-  my_ring.setPixelColor(12,255,0,0);
-  my_ring.setPixelColor(13,255,0,0);
-  my_ring.setPixelColor(14,255,0,0);
-  my_ring.setPixelColor(15,255,0,0);
+
+  /*
+  The below section does not use a for loop, and is
+  unsightly and difficult to modify
+  */
+
+  // my_ring.setPixelColor(0,255,0,0);
+  // my_ring.setPixelColor(1,255,0,0);
+  // my_ring.setPixelColor(2,255,0,0);
+  // my_ring.setPixelColor(3,255,0,0);
+  // my_ring.setPixelColor(4,255,0,0);
+  // my_ring.setPixelColor(5,255,0,0);
+  // my_ring.setPixelColor(6,255,0,0);
+  // my_ring.setPixelColor(7,255,0,0);
+  // my_ring.setPixelColor(8,255,0,0);
+  // my_ring.setPixelColor(9,255,0,0);
+  // my_ring.setPixelColor(10,255,0,0);
+  // my_ring.setPixelColor(11,255,0,0);
+  // my_ring.setPixelColor(12,255,0,0);
+  // my_ring.setPixelColor(13,255,0,0);
+  // my_ring.setPixelColor(14,255,0,0);
+  // my_ring.setPixelColor(15,255,0,0);
+  // my_ring.show();
+
+
+
+  /*
+  Below, a for loop is used to do the
+  same thing. This is much easier to modify
+  */
+
+  for(int i = 0; i < 16; i++){
+    my_ring.setPixelColor(i,255,0,0); 
+  }
   my_ring.show();
+
 }
