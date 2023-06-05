@@ -5,7 +5,7 @@
 
 Adafruit_NeoPixel my_ring = Adafruit_NeoPixel(16, 13, NEO_GRB + NEO_KHZ800);  // 16 leds, Arduino pin 13
 
-void setup() {
+void setup(){
   my_ring.begin(); // initializes the ring
   my_ring.clear(); // clear ring (blank)
   my_ring.show(); // send instructions to ring
