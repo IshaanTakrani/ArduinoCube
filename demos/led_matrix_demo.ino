@@ -48,9 +48,9 @@ void loop() {
 
   /*
     Below is the code for a scroling
-    sprite of Pan-Man
+    sprite of Pac-Man
   */
-  
+
 
   my_matrix.writeSprite(-8,0,Pacman);
 
