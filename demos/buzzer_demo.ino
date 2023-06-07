@@ -1,3 +1,5 @@
+// Buzzer demonstration
+// Ishaan Takrani
 
 const int buzzer = 2; // buzzer is in pin 2
 

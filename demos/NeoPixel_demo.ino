@@ -1,3 +1,4 @@
+// NeoPixel demonstration
 // Ishaan Takrani
 // Arun Chauhan
 
