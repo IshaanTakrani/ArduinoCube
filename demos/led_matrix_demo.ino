@@ -20,6 +20,21 @@ char smiley_face[] = {
   B11111111
 };
 
+
+char Pacman[] = {
+  8,
+  8,
+  B00011100,
+  B00100010,
+  B01000001,
+  B01001001,
+  B01010101,
+  B00100010,
+  B00000000,
+  B00001000
+};
+
+
 void setup() {
   my_matrix.init(); // initializes LED matrix
   my_matrix.setIntensity(8);  // initializes LED matrix brightness to 8/15
@@ -28,6 +43,39 @@ void setup() {
 
 void loop() {
 
-  my_matrix.writeSprite(0, 0, smiley_face); // displays smiley_face sprite on LED Matrix
+  // my_matrix.writeSprite(0, 0, smiley_face); // displays smiley_face sprite on LED Matrix
 
+
+  /*
+    Below is the code for a scroling
+    sprite of Pan-Man
+  */
+  
+
+  my_matrix.writeSprite(-8,0,Pacman);
+
+  /* 
+    move the Pacman 16 times to the right
+    first 8 times = Pacman is shifted in from the left
+    last 8 times = Pacman is shifted out to the right
+  */
+
+ for (int i=1; i<17; i++){
+   // update the location of the Pacman
+   my_matrix.clear();
+   my_matrix.writeSprite(-8+i,0,Pacman);
+   delay(100);
+ }
+
+ my_matrix.clear();  // clear the display
+ 
 }
+
+
+
+
+
+
+
+
+
