@@ -1,5 +1,6 @@
 // Task 6: beep boop
 // Ishaan Takrani
+// Arun Chauhan
 
 const int buzzer = 2; // buzzer is in pin 2
 

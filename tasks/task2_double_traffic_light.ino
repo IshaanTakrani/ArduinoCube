@@ -1,5 +1,6 @@
 // Task 2: Double traffic light 
 // Ishaan Takrani
+// Arun Chauhan
 
 /*
   Each LED pin on the Arduino can be

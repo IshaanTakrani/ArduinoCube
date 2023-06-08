@@ -1,5 +1,6 @@
 // Task 1: Traffic light
 // Ishaan Takrani
+// Arun Chauhan
 
 void setup() {
   /*

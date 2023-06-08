@@ -1,5 +1,6 @@
 // Task 4: Colours
 // Ishaan Takrani
+// Arun Chauhan
 
 #include <Adafruit_NeoPixel.h>
 

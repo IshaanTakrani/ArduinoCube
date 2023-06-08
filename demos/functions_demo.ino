@@ -1,5 +1,6 @@
 // Functions demonstration
 // Ishaan Takrani
+// Arun Chauhan
 
 const int green = 3;  // using const int to define variables does the same as using int, but the values cannot be modified
 const int yellow = 4;

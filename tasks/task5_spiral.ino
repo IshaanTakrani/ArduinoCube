@@ -1,5 +1,6 @@
 // Task 5: Spiral
 // Ishaan Takrani
+// Arun Chauhan
 
 #include <Adafruit_NeoPixel.h>
 
