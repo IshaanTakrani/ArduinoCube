@@ -44,5 +44,4 @@ void loop() {
   if(my_matrix.displayAnimate()){
     my_matrix.displayReset();
   } 
-
 }
