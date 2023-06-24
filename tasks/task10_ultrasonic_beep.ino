@@ -39,16 +39,16 @@ void loop() {
 
   if (distance < 50){
     tone(buzzer, 660);  // plays note for 100 milliseconds
-    delay(100);
+    delay(50);
     noTone(buzzer); // silence for 100 milliseconds. Makes a beeping sound
-    delay(100);
+    delay(50);
   }
 
   else if (distance > 50 && distance < 75){
     tone(buzzer, 1047);
-    delay(100);
+    delay(75);
     noTone(buzzer);
-    delay(100);
+    delay(75);
   }
 
   else{
