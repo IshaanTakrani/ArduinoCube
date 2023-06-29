@@ -2,7 +2,7 @@
 // Ishaan Takrani
 // Arun Chauhan
 
-const int LDR_pin = 0;  // The Arduino pin that the LDR is connected to. It is constant, so it is a const int
+const int LDR_pin = A3;  // The Arduino pin that the LDR is connected to. It is constant, so it is a const int
 int LDR_value = 0;  // The value that the LDR pin reads. This changes, so it is an int, and not a const int
 
 void setup() {
