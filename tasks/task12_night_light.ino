@@ -1,6 +1,6 @@
 // Task 12: Night Light
 // Ishaan Takrani
-// Arun Chauhanc
+// Arun Chauhan
 
 #include <MaxMatrix.h>
 MaxMatrix my_matrix = MaxMatrix(12, 10, 11, 1); // constructor
