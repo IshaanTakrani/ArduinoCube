@@ -1,4 +1,5 @@
 // If you couldn't find this program on the IDE, here it is
+// I didn't write it
 
 // --------------------------------------
 // i2c_scanner
