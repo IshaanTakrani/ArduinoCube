@@ -1,3 +1,8 @@
+/*
+  This code allows for communication between the bluetooth module and
+  the Arduino Microcontroller
+*/
+
 #include <SoftwareSerial.h>
 
 SoftwareSerial BTSerial(10, 11);    // TX: PIN 10, RX: PIN 11
