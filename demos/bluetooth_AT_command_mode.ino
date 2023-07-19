@@ -1,6 +1,8 @@
 /*
   This code allows for communication between the bluetooth module and
   the Arduino Microcontroller
+
+  - Ishaan Takrani
 */
 
 #include <SoftwareSerial.h>
