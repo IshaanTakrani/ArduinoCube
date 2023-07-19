@@ -1,6 +1,8 @@
-// Task 7: jingle bells
+// Task 7: Jingle Bells
 // Ishaan Takrani
 // Arun Chauhan
+
+//////// Disclaimer: This code Serves as an example, not the answer to the task. The song is yours to choose
 
 int buzzer = 2;
 int E5 = 659;
