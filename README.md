@@ -7,6 +7,12 @@ and will be taught as official curricula for the computer engineering: robotics 
 
 This repo holds the example code showcased in the lessons and the answer key to the tasks, as well as a PDF version of the slideshow that contains the lessons.
 
+
+All of the programs run on an Arduino Uno microcontroller, and require the Arduino IDE
+
+Happy learning!
+
+
 ---
 Ishaan Takrani
 
